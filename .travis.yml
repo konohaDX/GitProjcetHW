@@ -18,15 +18,8 @@ install:
 # There are many ways to do dependeing on how you want travis to run and get you coverage
 script: true
   - nosetests --with-coverage --coverage report
-  
+
  # Another command/method to run tests
 script: 
-  - python cal.py
+  - python TestCalculator.py
 
-deploy:
-  provider: heroku
-  api_key:
-    secure: $HEROKU_API_KEY
-  app: test-my-travisci-project
-  on:
-    repo: jimting/GitProjectTutorialExample
