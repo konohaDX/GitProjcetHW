@@ -1,4 +1,4 @@
-master command
+master's command
 
 
 branch's command
